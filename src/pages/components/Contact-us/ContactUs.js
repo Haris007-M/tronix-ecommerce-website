@@ -7,7 +7,7 @@ import Contactusdetails from "./Contactus-details/Contactusdetails";
 const ContactUs = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container p-2 Contact-Us-Main-Container">
         <h1 className="Contact-us-main-heading">Contact Us</h1>
         <p className="Contact-us-main-paragraph">

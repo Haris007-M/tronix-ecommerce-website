@@ -60,7 +60,7 @@ const SingleProduct = () => {
   
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-12 p-4 border">

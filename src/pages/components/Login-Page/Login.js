@@ -18,7 +18,7 @@ const LoginForm = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="login-body mt-3">
         <div className="container">
           <div className="row">

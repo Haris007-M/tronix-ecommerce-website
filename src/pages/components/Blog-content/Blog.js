@@ -7,7 +7,7 @@ import Filtersection from "./filter-section/Filtersection";
 const Blog = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="container">
         <div className="row mt-5">

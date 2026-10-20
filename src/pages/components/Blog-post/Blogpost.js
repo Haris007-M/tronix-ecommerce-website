@@ -7,7 +7,7 @@ import Singleblogpost from "./Single-blog-post/Singleblogpost";
 const Blogpost = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="container">
         <div className="row mt-5 mb-3">

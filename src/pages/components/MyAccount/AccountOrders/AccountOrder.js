@@ -8,7 +8,7 @@ import Link from "next/link";
 const AccountOrder = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
       <div className="container">
         <div className="Account-Details-form-section-container">
           <div className="row w-100">

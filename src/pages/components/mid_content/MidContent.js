@@ -15,11 +15,11 @@ const MidContent = () => {
       <Carousel/>
       <Tags/>
       <Newarrival/>
-      <FeaturedProducts/>
+      {/* <FeaturedProducts/> */}
       <OurCollection/>
       <FlashSale/>
       <Topproducts/>
-      <Blog/>
+      {/* <Blog/> */}
       <Client/>
     </>
   )

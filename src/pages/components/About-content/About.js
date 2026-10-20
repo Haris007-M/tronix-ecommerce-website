@@ -8,7 +8,7 @@ import Client from "../mid_content/brands/Clients";
 const About = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <div className="row mt-5">
           <div className="col-lg-12" id="colabout">

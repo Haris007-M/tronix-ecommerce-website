@@ -22,16 +22,19 @@ export default function Document() {
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
-          rel="stylesheet"></link>
+          rel="stylesheet"
+        ></link>
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
-          rel="stylesheet"></link>
+          rel="stylesheet"
+        ></link>
       </Head>
       <body>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-          crossOrigin="anonymous"></script>
+          crossOrigin="anonymous"
+        ></script>
         <Main />
         <NextScript />
       </body>

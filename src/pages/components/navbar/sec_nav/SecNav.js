@@ -13,9 +13,9 @@ const SecNav = () => {
             </Link>
           </div>
           <div className="col-lg-6 col-md-8 col-12 SecNav-Search-Section d-flex">
-            <div className="sec_nav_icon_1">
+            {/* <div className="sec_nav_icon_1">
               <img src="/pics_svgs/Dashboard.svg" alt="" />
-            </div>
+            </div> */}
             <form className="form_searchbar" role="search">
               <div className="input-group">
                 <input
@@ -34,6 +34,7 @@ const SecNav = () => {
               </div>
             </form>
           </div>
+
           <div className="col-lg-4 col-md-12 col-12 d-flex align-items-center justify-content-end SecNav-LastRow">
             <div className="row d-flex align-items-center justify-content-end">
               <div className="col-2">
@@ -60,24 +61,21 @@ const SecNav = () => {
                 </Link>
               </div>
               <div className="col-3 d-flex align-items-center">
-              <Link
-              href="/components/Login-Page/Login"
-              className="sec_nav_btn pe-4"
-            >
-              <p className="signin">Sign In</p>
-            </Link>
+                <Link
+                  href="/components/Login-Page/Login"
+                  className="sec_nav_btn pe-4"
+                >
+                  <p className="signin">Sign In</p>
+                </Link>
               </div>
               <div className="col-5">
-              <Link href="/components/MyAccount/AccountDetails/AccountDetails">
-              <button className="btn text-white" id="btn_signupnav">
-                Sign Up
-              </button>
-            </Link>
+                <Link href="/components/MyAccount/AccountDetails/AccountDetails">
+                  <button className="btn text-white" id="btn_signupnav">
+                    Sign Up
+                  </button>
+                </Link>
               </div>
             </div>
-
-            
-           
           </div>
         </div>
       </div>

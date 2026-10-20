@@ -13,24 +13,39 @@ const ThirdNav = () => {
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation"
+          >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link className="nav-link active pe-3" aria-current="page" href="/">
+              <Link
+                className="nav-link active pe-3"
+                aria-current="page"
+                href="/"
+              >
                 Home
               </Link>
-              <Link className="nav-link pe-3" href="/components/About-content/About">
-                About
-              </Link>
-              <Link className="nav-link pe-3" href="/components/Product_category/ProductCategory">
+
+              <Link
+                className="nav-link pe-3"
+                href="/components/Product_category/ProductCategory"
+              >
                 Product
               </Link>
-              <Link className="nav-link pe-3" href="/components/Blog-content/Blog">
+              {/* <Link className="nav-link pe-3" href="/components/Blog-content/Blog">
                 Blog
+              </Link> */}
+              <Link
+                className="nav-link pe-3"
+                href="/components/About-content/About"
+              >
+                About
               </Link>
-              <Link className="nav-link " href="/components/Contact-us/ContactUs">
+              <Link
+                className="nav-link "
+                href="/components/Contact-us/ContactUs"
+              >
                 Contact
               </Link>
             </div>

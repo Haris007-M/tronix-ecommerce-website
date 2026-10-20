@@ -5,12 +5,10 @@ import Featured from "./Featured_Brand/Featured";
 import ProductList from "./product_list/ProductList";
 import AllCategories from "./all_categories/AllCategories";
 
-
 const ProductCategory = () => {
-
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <div className="row mt-5">
           <div className="col-12" id="colcategory">
@@ -23,12 +21,13 @@ const ProductCategory = () => {
         </div>
         <div className="row">
           <div className="col-3" id="ProductCategory">
-            <AllCategories/>
+            <AllCategories />
           </div>
           <div className="col-9">
-            <Categories/>
-            <Featured/>
-            <ProductList/>
+            <Categories />
+
+            <ProductList />
+            {/* <Featured /> */}
           </div>
         </div>
       </div>

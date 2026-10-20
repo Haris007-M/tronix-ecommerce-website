@@ -56,7 +56,7 @@ const Topproducts = () => {
               const { id, title, price, description, category, image } =
                 product;
               return (
-                <div className="col-lg-4 col-md-4 col-sm-12 mb-3">
+                <div className="col-lg-3 col-md-4 col-sm-12 mb-3">
                   <div className="card rounded-card" id="cardtopproductlength">
                     <Link
                       href={`/components/Single_Product/${id}`}
@@ -65,8 +65,8 @@ const Topproducts = () => {
                         src={image}
                         className="card-img-top top-products-img"
                         alt="..."
-                        width={313}
-                        height={413}
+                        width={290}
+                        height={320}
                       />
                     </Link>
                     <div className="card-body text-center">

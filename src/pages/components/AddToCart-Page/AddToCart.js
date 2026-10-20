@@ -39,7 +39,7 @@ const AddToCart = () => {
   }
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <div className="row py-5">
           <div className="col-12">

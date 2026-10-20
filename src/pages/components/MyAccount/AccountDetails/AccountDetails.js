@@ -7,7 +7,7 @@ import Link from "next/link";
 const AccountDetails = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container py-3">
         <div className="Account-Details-form-section-container">
           <div className="row w-100">

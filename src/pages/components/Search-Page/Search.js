@@ -9,7 +9,7 @@ import SearchResult from "./SearchResults/SearchResult";
 const Search = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container mt-5">
         <div className="Search-Heading-text p-3 my-3">
           <h1 className="text-center">What are you looking for?</h1>
